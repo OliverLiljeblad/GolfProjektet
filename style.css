@@ -12,6 +12,8 @@ header {
   background-color: #95b7a9;
   min-height: 10vh;
   padding: 0px 20px;
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -68,4 +70,9 @@ nav a {
 .home {
   background-image: url(https://cdn.greaterzion.com/wp-content/uploads/2020/10/20121012/Golfing-on-a-Budget.jpg);
   background-size: 100%;
+}
+
+p {
+  margin: 100px;
+  padding-top: 300px;
 }
