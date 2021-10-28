@@ -4,6 +4,30 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.drop-menu a {
+  color: grey;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .drop-menu {
+  display: block;
+}
 
 header {
   display: flex;
@@ -28,9 +52,8 @@ nav a {
 }
 
 .topnav {
+  padding: 10px;
   background-color: #333;
-  overflow: hidden;
-  display: flex;
 }
 
 .topnav a {
