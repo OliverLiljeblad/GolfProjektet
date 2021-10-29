@@ -105,6 +105,12 @@ img {
   width: 700px;
 }
 
+.midA {
+  margin: 10px;
+  margin-top: 30px;
+  background-color: #95b7a9;
+}
+
 p {
   margin: 50px;
   padding-top: 0px;
