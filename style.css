@@ -62,7 +62,6 @@ nav a {
   padding: 10px 20px;
   text-decoration: none;
   font-size: 17px;
-  
 }
 
 .topnav a:hover {
@@ -98,6 +97,7 @@ nav a {
 .mid {
   margin: 10px;
   margin-top: 50px;
+  margin-bottom: 25px;
   background-color: #95b7a9;
 }
 
@@ -151,4 +151,17 @@ form {
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+}
+
+footer {
+  padding: 0%;
+  margin: 0%;
+}
+
+.bot {
+  background-color: #95b7a9;
+}
+
+.bot a {
+  background-color: #95b7a9;
 }
