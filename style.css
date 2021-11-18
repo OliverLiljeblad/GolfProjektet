@@ -165,3 +165,16 @@ footer {
 .bot a {
   background-color: #95b7a9;
 }
+
+.botP {
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+  height: 10%;
+}
+
+.login {
+  padding: 110px;
+  margin: 100px;
+  margin-left: 400px;
+}
